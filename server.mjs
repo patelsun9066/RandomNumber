@@ -7,17 +7,15 @@ app.use(express.json());
 app.post('/randomnumber', (req,res) => { 
 
     // Range sent by partners client
-    // const range = req.body.range;
+    const range = req.body.range;
 
     // Using that range to generate a random number within in
-    let min = Math.ceil(req.body.min);
-    let max = Math.floor(req.body.max);
+    let min = 0;
+    let max = Math.floor(req.body.range);
 
     let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
     let randomNumberText = randomNumber.toString();
 
-    console.log(randomNumber);
-    
     // Finally sending the random number within range back to partners client.
     res.json({ randomnumber: randomNumberText})
 });
