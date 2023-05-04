@@ -17,7 +17,7 @@ Send-to-server.rest example call
 # Recieving Data (Random Number from Microservice): 
 After the Node.js server recieves a valid POST request body, it will then take the specified ending range and generate a random number within that range using JavaScripts built-in Math functions. The generated random number will then be converted to string format (so that client applications can use the number as a string in other external API calls) and returned to the client as a response in JSON format. The response in JSON will be in the following format: key - "randomnumber" : value - "randomNumberText", clients can simply access value to retreive the random number requested! The following below is an example response that expected from the microservice:
 
-Response from Send-to_server example call:
+Response from Send-to-server example call:
 
 ![image](https://user-images.githubusercontent.com/91297951/236323750-68010e8e-8408-4a0c-9556-91933694226a.png)
 
