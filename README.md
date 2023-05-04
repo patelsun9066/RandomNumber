@@ -22,6 +22,12 @@ Response from Send-to-server example call:
 ![image](https://user-images.githubusercontent.com/91297951/236323750-68010e8e-8408-4a0c-9556-91933694226a.png)
 
 
+# UML sequence diagram
+
+![image](https://user-images.githubusercontent.com/91297951/236327946-26a7bf02-f39a-4e63-b1b9-8d8151e71690.png)
+
+
+
 
 
 
